@@ -1,0 +1,83 @@
+.topnav{
+    background-color: transparent;
+    overflow: hidden;
+
+}
+.topnav a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: transparent;
+    color: black;
+}
+.topnav a.active{
+    background-color: #4caf50;
+    color: white;
+}
+
+.topnav h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    font-size: 20px;
+    color: yellowgreen;
+}
+.log{
+    text-align: center;
+    background-color: transparent;
+    border-style: groove;
+    border-color: palevioletred;
+    padding: 10px;
+    margin: auto;
+    max-width:  500px;
+}
+
+.log h1{
+    color: yellow;
+}
+.bot{
+
+    background-color: white;
+    padding-left: 80px;
+    padding-right: 0px;
+    margin: 0%;
+    
+
+}
+.column {
+    float: left;
+    width: 32%;
+    padding: 7px;
+    height: 235px; 
+  }
+  
+.bot:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.sign{
+    text-align: center;
+    background-color: transparent;
+    border-style: groove;
+    border-color: yellow;   
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+}
+
+.book{
+    text-align: center;
+    background-color: transparent;
+    border-style: groove;
+    border-color: chocolate;
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+
+}
